@@ -8,8 +8,8 @@ Development of a Matlab program to analyse images containing linear barcodes, QR
 The program must be able to read supplied images and generate the requested results as described below.
 
 > _**PT**_
-> 
-> _Desenvolvimento de um programa em Matlab para fazer análise de imagens que contêm códigos de barras
+
+ _Desenvolvimento de um programa em Matlab para fazer análise de imagens que contêm códigos de barras
 lineares, códigos matriciais (QR codes) e outros objetos sem significado. O programa deve ser capaz de
 interpretar imagens fornecidas e de gerar os resultados pedidos conforme descrito adiante. Serão dadas
 imagens exemplo para permitir o desenvolvimento, mas as imagens usadas para obter os resultados de
@@ -20,7 +20,7 @@ avaliação serão novas._
 
  
 ## Parâmetros a detetar em cada imagem
-**ING**
+> **ING**
 
 Em cada imagem, os principais parâmetros e características a detetar pelo programa do aluno são:
 + Número total de objetos sem significado.
@@ -34,17 +34,17 @@ Em cada imagem, os principais parâmetros e características a detetar pelo prog
 + String com os dígitos centrais dos códigos de barras válidos ordenados de forma crescente.
 
 > _**PT**_
-> 
-> _Em cada imagem, os principais parâmetros e características a detetar pelo programa do aluno são:_
-> + _Número total de objetos sem significado._
-> + _Número total de códigos de barras._
-> + _Número total de códigos matriciais._
-> + _Número de códigos de barras em cada uma das 4 orientações possíveis._
-> + _Número de códigos de barras válidos com reflexão axial._
-> + _Número de códigos de barras inválidos de acordo com o enunciado._
-> + _Número total acumulado de dígitos representados nos códigos de barras válidos._
-> + _Número de códigos de barras válidos em cada uma das 3 codificações possíveis (’L’, ’R’, ’G’)._
-> + _String com os dígitos centrais dos códigos de barras válidos ordenados de forma crescente._
+
+ _Em cada imagem, os principais parâmetros e características a detetar pelo programa do aluno são:_
++ _Número total de objetos sem significado._
++ _Número total de códigos de barras._
++ _Número total de códigos matriciais._
++ _Número de códigos de barras em cada uma das 4 orientações possíveis._
++ _Número de códigos de barras válidos com reflexão axial._
++ _Número de códigos de barras inválidos de acordo com o enunciado._
++ _Número total acumulado de dígitos representados nos códigos de barras válidos._
++ _Número de códigos de barras válidos em cada uma das 3 codificações possíveis (’L’, ’R’, ’G’)._
++ _String com os dígitos centrais dos códigos de barras válidos ordenados de forma crescente._
 
 
 ![Capturar](https://github.com/Nunoc99/SVPI-TP1/assets/114221939/306f631a-995d-4163-9e90-d72609854b31)
