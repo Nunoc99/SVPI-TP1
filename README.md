@@ -22,16 +22,16 @@ avaliação serão novas._
 ## Parâmetros a detetar em cada imagem
 > **ING**
 
-Em cada imagem, os principais parâmetros e características a detetar pelo programa do aluno são:
-+ Número total de objetos sem significado.
-+ Número total de códigos de barras.
-+ Número total de códigos matriciais.
-+ Número de códigos de barras em cada uma das 4 orientações possíveis.
-+ Número de códigos de barras válidos com reflexão axial.
-+ Número de códigos de barras inválidos de acordo com o enunciado.
-+ Número total acumulado de dígitos representados nos códigos de barras válidos.
-+ Número de códigos de barras válidos em cada uma das 3 codificações possíveis (’L’, ’R’, ’G’).
-+ String com os dígitos centrais dos códigos de barras válidos ordenados de forma crescente.
+In each image, the main parameters and caracteristics that the program has to detect are:
++ Total number of meaningless objects.
++ Total number of barcodes.
++ Total number of QR codes.
++ Number of barcodes in each of the 4 possible orientations.
++ Number of valid barcodes with axial reflection.
++ Number of invalid barcodes according to the statment.
++ Total cumulative number of digits represented in valid barcodes.
++ Number of valid barcodes in each of the 3 possible encodings (’L’, ’R’, ’G’).
++ String with the central digits of the valid barcodes sorted in ascending order.
 
 > _**PT**_
 
