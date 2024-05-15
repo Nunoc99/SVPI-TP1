@@ -30,7 +30,7 @@ Em cada imagem, os principais parâmetros e características a detetar pelo prog
 + String com os dígitos centrais dos códigos de barras válidos ordenados de forma crescente.
 
 _**PT**_
-_+ Em cada imagem, os principais parâmetros e características a detetar pelo programa do aluno são:
+_Em cada imagem, os principais parâmetros e características a detetar pelo programa do aluno são:_
 + Número total de objetos sem significado.
 + Número total de códigos de barras.
 + Número total de códigos matriciais.
