@@ -3,11 +3,11 @@ Detection and processing of images with Barcodes and QR codes
 
 ## Objetivo
 _**PT**_
-Desenvolvimento de um programa em Matlab para fazer análise de imagens que contêm códigos de barras
+_Desenvolvimento de um programa em Matlab para fazer análise de imagens que contêm códigos de barras
 lineares, códigos matriciais (QR codes) e outros objetos sem significado. O programa deve ser capaz de
 interpretar imagens fornecidas e de gerar os resultados pedidos conforme descrito adiante. Serão dadas
 imagens exemplo para permitir o desenvolvimento, mas as imagens usadas para obter os resultados de
-avaliação serão novas.
+avaliação serão novas._
 
 **ING**
 Development of a Matlab program to analyse images containing linear barcodes, QR codes and some meaningless objects. 
@@ -30,16 +30,16 @@ Em cada imagem, os principais parâmetros e características a detetar pelo prog
 + String com os dígitos centrais dos códigos de barras válidos ordenados de forma crescente.
 
 _**PT**_
-_+_ _Em cada imagem, os principais parâmetros e características a detetar pelo programa do aluno são:_
-_+ Número total de objetos sem significado._
-_+ Número total de códigos de barras._
-_+ Número total de códigos matriciais._
-_+ Número de códigos de barras em cada uma das 4 orientações possíveis._
-_+ Número de códigos de barras válidos com reflexão axial._
-_+ Número de códigos de barras inválidos de acordo com o enunciado._
-_+ Número total acumulado de dígitos representados nos códigos de barras válidos._
-_+ Número de códigos de barras válidos em cada uma das 3 codificações possíveis (’L’, ’R’, ’G’)._
-_+ String com os dígitos centrais dos códigos de barras válidos ordenados de forma crescente._
+_+ Em cada imagem, os principais parâmetros e características a detetar pelo programa do aluno são:
++ Número total de objetos sem significado.
++ Número total de códigos de barras.
++ Número total de códigos matriciais.
++ Número de códigos de barras em cada uma das 4 orientações possíveis.
++ Número de códigos de barras válidos com reflexão axial.
++ Número de códigos de barras inválidos de acordo com o enunciado.
++ Número total acumulado de dígitos representados nos códigos de barras válidos.
++ Número de códigos de barras válidos em cada uma das 3 codificações possíveis (’L’, ’R’, ’G’).
++ String com os dígitos centrais dos códigos de barras válidos ordenados de forma crescente._
 
 ![Capturar](https://github.com/Nunoc99/SVPI-TP1/assets/114221939/306f631a-995d-4163-9e90-d72609854b31)
 
