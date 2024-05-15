@@ -40,23 +40,23 @@ estes códigos são diferentes entre si.
 
 
 ## Variables to get from each object
-+ **NumMec** Número mecanográfico do aluno.
-+ **NumSeq** Número da sequência da imagem (Cf. nome do ficheiro de imagem).
-+ **NumImg** Número da imagem na sequência (Cf. nome do ficheiro de imagem).
-+ **TotNM** Número de objetos sem significado.
-+ **TotCB** Número total de objetos com códigos de barras.
-+ **TotQR** Número total de objetos com QR codes.
-+ **R0** Número de códigos de barra na orientação de 0°.
-+ **R90** Número de códigos de barra na orientação de 90°.
-+ **R180** Número de códigos de barra na orientação de 180°.
-+ **R270** Número de códigos de barra na orientação de 270°.
-+ **ReflCB** Número de códigos de barras válidos com reflexão axial.
-+ **BadCB** Número de códigos de barras inválidos.
-+ **TotDigCB** Número total acumulado de dígitos representados nos códigos de barras válidos.
-+ **CBL** Número de códigos de barras válidos na codificação ’L’.
-+ **CBR** Número de códigos de barras válidos na codificação ’R’.
-+ **CBG** Número de códigos de barras válidos na codificação ’G’.
-+ **StringCB** String com os dígitos centrais dos códigos de barras válidos ordenados crescentes.
++ **NumMec** - Número mecanográfico do aluno.
++ **NumSeq** - Número da sequência da imagem (Cf. nome do ficheiro de imagem).
++ **NumImg** - Número da imagem na sequência (Cf. nome do ficheiro de imagem).
++ **TotNM** - Número de objetos sem significado.
++ **TotCB** - Número total de objetos com códigos de barras.
++ **TotQR** - Número total de objetos com QR codes.
++ **R0** - Número de códigos de barra na orientação de 0°.
++ **R90** - Número de códigos de barra na orientação de 90°.
++ **R180** - Número de códigos de barra na orientação de 180°.
++ **R270** - Número de códigos de barra na orientação de 270°.
++ **ReflCB** - Número de códigos de barras válidos com reflexão axial.
++ **BadCB** - Número de códigos de barras inválidos.
++ **TotDigCB** - Número total acumulado de dígitos representados nos códigos de barras válidos.
++ **CBL** - Número de códigos de barras válidos na codificação ’L’.
++ **CBR** - Número de códigos de barras válidos na codificação ’R’.
++ **CBG** - Número de códigos de barras válidos na codificação ’G’.
++ **StringCB** - String com os dígitos centrais dos códigos de barras válidos ordenados crescentes.
 
 
 ## RESULTS
