@@ -53,8 +53,8 @@ uma delas a codificação ’L’. Se uma barra branca for representada por um �
 ’0’, então o código para representar por exemplo o dígito ’5’, na codificação ’L’, será o seguinte: 1 0 0
 1 1 1 0. Cada grupo de dígitos é delimitado por um código de início (start) e um código de fim (end);
 estes códigos são diferentes entre si.
-+ O código delimitador de início é dado por: 0 0 1 0 1 1 0 1 1 1 0 (onze barras)
-+ O código delimitador de fim é dado por: 0 1 1 1 0 0 0 1 0 1 0 0 (doze barras)
++ The start delimiter code is given by: 0 0 1 0 1 1 0 1 1 1 0 (eleven bars)
++ The end delimiter code is given by: 0 1 1 1 0 0 0 0 1 0 1 0 0 (twelve bars)
 
 > _**PT**_
 
