@@ -9,7 +9,7 @@ interpretar imagens fornecidas e de gerar os resultados pedidos conforme descrit
 imagens exemplo para permitir o desenvolvimento, mas as imagens usadas para obter os resultados de
 avaliação serão novas.
 
-
+**ING**
 Development of a Matlab program to analyse images containing linear barcodes, QR codes and some meaningless objects. 
 The program must be able to read supplied images and generate the requested results as described below.
 
