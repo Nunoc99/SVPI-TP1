@@ -8,7 +8,6 @@ interpretar imagens fornecidas e de gerar os resultados pedidos conforme descrit
 imagens exemplo para permitir o desenvolvimento, mas as imagens usadas para obter os resultados de
 avaliação serão novas.
 
-
 ![svpi2024_TP1_img_330_01](https://github.com/Nunoc99/SVPI-TP1/assets/114221939/3b3bc746-0495-42d6-804e-593d72aaa9e8)
 
  
@@ -24,8 +23,6 @@ Em cada imagem, os principais parâmetros e características a detetar pelo prog
 + Número de códigos de barras válidos em cada uma das 3 codificações possíveis (’L’, ’R’, ’G’).
 + String com os dígitos centrais dos códigos de barras válidos ordenados de forma crescente.
 
-
-
 ![Capturar](https://github.com/Nunoc99/SVPI-TP1/assets/114221939/306f631a-995d-4163-9e90-d72609854b31)
 
 
@@ -39,8 +36,27 @@ estes códigos são diferentes entre si.
 + O código delimitador de início é dado por: 0 0 1 0 1 1 0 1 1 1 0 (onze barras)
 + O código delimitador de fim é dado por: 0 1 1 1 0 0 0 1 0 1 0 0 (doze barras)
 
-
 ![image](https://github.com/Nunoc99/SVPI-TP1/assets/114221939/75055310-b6d7-4ad0-b4a8-d14aefc11b64)
+
+
+## Variables to get from each object
+**NumMec** Número mecanográfico do aluno.
+**NumSeq** Número da sequência da imagem (Cf. nome do ficheiro de imagem).
+**NumImg** Número da imagem na sequência (Cf. nome do ficheiro de imagem).
+**TotNM** Número de objetos sem significado.
+**TotCB** Número total de objetos com códigos de barras.
+**TotQR** Número total de objetos com QR codes.
+**R0** Número de códigos de barra na orientação de 0°.
+**R90** Número de códigos de barra na orientação de 90°.
+**R180** Número de códigos de barra na orientação de 180°.
+**R270** Número de códigos de barra na orientação de 270°.
+**ReflCB** Número de códigos de barras válidos com reflexão axial.
+**BadCB** Número de códigos de barras inválidos.
+**TotDigCB** Número total acumulado de dígitos representados nos códigos de barras válidos.
+**CBL** Número de códigos de barras válidos na codificação ’L’.
+**CBR** Número de códigos de barras válidos na codificação ’R’.
+**CBG** Número de códigos de barras válidos na codificação ’G’.
+**StringCB** String com os dígitos centrais dos códigos de barras válidos ordenados crescentes.
 
 
 ## RESULTS
@@ -50,5 +66,7 @@ On the left there's a figure with 6 subplots where it can be seen the original i
 
 On the right side of the picture, there's a figure with, in this case, 32 subplots because in this image there are 32 objects in the image, know that, the image subplot size addpats to the number of objects in the image. From this image, each object will be analyzed 1 by 1 to get all the parameters in question, this means, each identified barcode will go through a process of 4 types of scaling, 4 types of rotation and 3 types of axial reflection and it will stop when the barcode is in the correct scale, orientation and if there is a axial reflection or not. Now, for the QR codes, each one will also go through a process of 4 types of scaling and 4 types of orientation till it founds it's correct scale and orientation, then, get it's properties.
 
+At the bottom of the picture, there is a txt file which is created when the program ends. It has in sequence, separated by commas, the values of each parameter.
 
 ![setup](https://github.com/Nunoc99/SVPI-TP1/assets/114221939/68917b7a-296c-45d2-bec9-b803da5c5c24)
+
