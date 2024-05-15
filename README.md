@@ -2,8 +2,6 @@
 Detection and processing of images with Barcodes and QR codes
 
 ## Goal
-> **ING**
-
 Development of a Matlab program to analyse images containing linear barcodes, QR codes and some meaningless objects. 
 The program must be able to read supplied images and generate the requested results as described below.
 
@@ -20,8 +18,6 @@ avaliação serão novas._
 
  
 ## Parameters to detect in each image
-> **ING**
-
 In each image, the main parameters and caracteristics that the program has to detect are:
 + Total number of meaningless objects.
 + Total number of barcodes.
@@ -51,7 +47,6 @@ In each image, the main parameters and caracteristics that the program has to de
 
 
 ## The Barcodes
-
 Neste trabalho, os códigos de barras traduzem grupos de dígitos decimais. Cada dígito é representado
 por um conjunto de 7 barras pretas ou brancas. Existem várias formas de codificação dos dígitos, sendo
 uma delas a codificação ’L’. Se uma barra branca for representada por um ’1’ e uma barra preta por um
