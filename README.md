@@ -3,10 +3,12 @@ Detection and processing of images with Barcodes and QR codes
 
 ## Objetivo
 **ING**
+
 Development of a Matlab program to analyse images containing linear barcodes, QR codes and some meaningless objects. 
 The program must be able to read supplied images and generate the requested results as described below.
 
 > _**PT**_
+> 
 > _Desenvolvimento de um programa em Matlab para fazer análise de imagens que contêm códigos de barras
 lineares, códigos matriciais (QR codes) e outros objetos sem significado. O programa deve ser capaz de
 interpretar imagens fornecidas e de gerar os resultados pedidos conforme descrito adiante. Serão dadas
@@ -19,6 +21,7 @@ avaliação serão novas._
  
 ## Parâmetros a detetar em cada imagem
 **ING**
+
 Em cada imagem, os principais parâmetros e características a detetar pelo programa do aluno são:
 + Número total de objetos sem significado.
 + Número total de códigos de barras.
@@ -31,6 +34,7 @@ Em cada imagem, os principais parâmetros e características a detetar pelo prog
 + String com os dígitos centrais dos códigos de barras válidos ordenados de forma crescente.
 
 > _**PT**_
+> 
 > _Em cada imagem, os principais parâmetros e características a detetar pelo programa do aluno são:_
 > + _Número total de objetos sem significado._
 > + _Número total de códigos de barras._
