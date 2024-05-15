@@ -47,13 +47,6 @@ In each image, the main parameters and caracteristics that the program has to de
 
 
 ## The Barcodes
-Neste trabalho, os códigos de barras traduzem grupos de dígitos decimais. Cada dígito é representado
-por um conjunto de 7 barras pretas ou brancas. Existem várias formas de codificação dos dígitos, sendo
-uma delas a codificação ’L’. Se uma barra branca for representada por um ’1’ e uma barra preta por um
-’0’, então o código para representar por exemplo o dígito ’5’, na codificação ’L’, será o seguinte: 1 0 0
-1 1 1 0. Cada grupo de dígitos é delimitado por um código de início (start) e um código de fim (end);
-estes códigos são diferentes entre si.
-
 In this project, the barcodes translate groups of decimal digits. Each digit is represented by a set of 7
 black of white bars. There are various digit encoding ways, one of them is the ’L’ enconding. If a white bar 
 is represented by ’1’ and a black one by ’0’. then the code to represent, for example, the digit ’5’, in the 
@@ -78,6 +71,24 @@ estes códigos são diferentes entre si._
 
 
 ## Variables to get from each object
++ **NumMec** - Number of the student.
++ **NumSeq** - Image sequence number (Gf. image's filename)
++ **NumImg** - Image number in the sequence (Gf. image's filename).
++ **TotNM** - Number of meaningless objects.
++ **TotCB** - Total number of objects with barcodes.
++ **TotQR** - Total number of objects with QR codes.
++ **R0** - Number of barcodes in 0° orientation.
++ **R90** - Number of barcodes in 90° orientation.
++ **R180** - Number of barcodes in 180° orientation.
++ **R270** - Number of barcodes in 270° orientation.
++ **ReflCB** - Number of valid barcodes with axial reflection.
++ **BadCB** - Number of invalid barcodes.
++ **TotDigCB** - Total cumulative number of digits represented in valid barcodes.
++ **CBL** - Number of valid barcodes in ‘L’ coding.
++ **CBR** - Number of valid barcodes in ‘R’ coding.
++ **CBG** - Number of valid barcodes in ‘G’ coding.
++ **StringCB** - String with the central digits of the valid barcodes sorted in ascending order.
+
 > _**PT**_
 _+ **NumMec** - Número mecanográfico do aluno._
 _+ **NumSeq** - Número da sequência da imagem (Cf. nome do ficheiro de imagem)._
