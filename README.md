@@ -29,17 +29,17 @@ Em cada imagem, os principais parâmetros e características a detetar pelo prog
 + Número de códigos de barras válidos em cada uma das 3 codificações possíveis (’L’, ’R’, ’G’).
 + String com os dígitos centrais dos códigos de barras válidos ordenados de forma crescente.
 
-_**PT**_
-_Em cada imagem, os principais parâmetros e características a detetar pelo programa do aluno são:_
-+ _Número total de objetos sem significado._
-+ _Número total de códigos de barras._
-+ _Número total de códigos matriciais._
-+ _Número de códigos de barras em cada uma das 4 orientações possíveis._
-+ _Número de códigos de barras válidos com reflexão axial._
-+ _Número de códigos de barras inválidos de acordo com o enunciado._
-+ _Número total acumulado de dígitos representados nos códigos de barras válidos._
-+ _Número de códigos de barras válidos em cada uma das 3 codificações possíveis (’L’, ’R’, ’G’)._
-+ _String com os dígitos centrais dos códigos de barras válidos ordenados de forma crescente._
+> _**PT**_
+> _Em cada imagem, os principais parâmetros e características a detetar pelo programa do aluno são:_
+> + _Número total de objetos sem significado._
+> + _Número total de códigos de barras._
+> + _Número total de códigos matriciais._
+> + _Número de códigos de barras em cada uma das 4 orientações possíveis._
+> + _Número de códigos de barras válidos com reflexão axial._
+> + _Número de códigos de barras inválidos de acordo com o enunciado._
+> + _Número total acumulado de dígitos representados nos códigos de barras válidos._
+> + _Número de códigos de barras válidos em cada uma das 3 codificações possíveis (’L’, ’R’, ’G’)._
+> + _String com os dígitos centrais dos códigos de barras válidos ordenados de forma crescente._
 
 
 ![Capturar](https://github.com/Nunoc99/SVPI-TP1/assets/114221939/306f631a-995d-4163-9e90-d72609854b31)
