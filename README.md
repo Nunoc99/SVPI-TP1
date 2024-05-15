@@ -2,16 +2,17 @@
 Detection and processing of images with Barcodes and QR codes
 
 ## Objetivo
-_**PT**_
-_Desenvolvimento de um programa em Matlab para fazer análise de imagens que contêm códigos de barras
+**ING**
+Development of a Matlab program to analyse images containing linear barcodes, QR codes and some meaningless objects. 
+The program must be able to read supplied images and generate the requested results as described below.
+
+> _**PT**_
+> _Desenvolvimento de um programa em Matlab para fazer análise de imagens que contêm códigos de barras
 lineares, códigos matriciais (QR codes) e outros objetos sem significado. O programa deve ser capaz de
 interpretar imagens fornecidas e de gerar os resultados pedidos conforme descrito adiante. Serão dadas
 imagens exemplo para permitir o desenvolvimento, mas as imagens usadas para obter os resultados de
 avaliação serão novas._
 
-**ING**
-Development of a Matlab program to analyse images containing linear barcodes, QR codes and some meaningless objects. 
-The program must be able to read supplied images and generate the requested results as described below.
 
 ![svpi2024_TP1_img_330_01](https://github.com/Nunoc99/SVPI-TP1/assets/114221939/3b3bc746-0495-42d6-804e-593d72aaa9e8)
 
