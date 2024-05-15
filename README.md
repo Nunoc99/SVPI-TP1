@@ -26,7 +26,7 @@ Em cada imagem, os principais parâmetros e características a detetar pelo prog
 + Número de códigos de barras válidos em cada uma das 3 codificações possíveis (’L’, ’R’, ’G’).
 + String com os dígitos centrais dos códigos de barras válidos ordenados de forma crescente.
 
-_ + Em cada imagem, os principais parâmetros e características a detetar pelo programa do aluno são:
+_+ Em cada imagem, os principais parâmetros e características a detetar pelo programa do aluno são:
 + Número total de objetos sem significado.
 + Número total de códigos de barras.
 + Número total de códigos matriciais.
@@ -35,7 +35,7 @@ _ + Em cada imagem, os principais parâmetros e características a detetar pelo 
 + Número de códigos de barras inválidos de acordo com o enunciado.
 + Número total acumulado de dígitos representados nos códigos de barras válidos.
 + Número de códigos de barras válidos em cada uma das 3 codificações possíveis (’L’, ’R’, ’G’).
-+ String com os dígitos centrais dos códigos de barras válidos ordenados de forma crescente. _
++ String com os dígitos centrais dos códigos de barras válidos ordenados de forma crescente._
 
 ![Capturar](https://github.com/Nunoc99/SVPI-TP1/assets/114221939/306f631a-995d-4163-9e90-d72609854b31)
 
