@@ -6,6 +6,10 @@ lineares, códigos matriciais (QR codes) e outros objetos sem significado. O pro
 interpretar imagens fornecidas e de gerar os resultados pedidos conforme descrito adiante. Serão dadas
 imagens exemplo para permitir o desenvolvimento, mas as imagens usadas para obter os resultados de
 avaliação serão novas.
+
+
+![svpi2024_TP1_img_330_01](https://github.com/Nunoc99/SVPI-TP1/assets/114221939/3b3bc746-0495-42d6-804e-593d72aaa9e8)
+
  
 Parâmetros a detetar em cada imagem
 Em cada imagem, os principais parâmetros e características a detetar pelo programa do aluno são:
