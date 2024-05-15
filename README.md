@@ -42,3 +42,7 @@ estes códigos são diferentes entre si.
 
 ![image](https://github.com/Nunoc99/SVPI-TP1/assets/114221939/75055310-b6d7-4ad0-b4a8-d14aefc11b64)
 
+
+## RESULTS
+Visual demonstration of the program working.
+![setup](https://github.com/Nunoc99/SVPI-TP1/assets/114221939/68917b7a-296c-45d2-bec9-b803da5c5c24)
