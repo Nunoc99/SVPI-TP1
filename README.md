@@ -54,10 +54,10 @@ uma delas a codificação ’L’. Se uma barra branca for representada por um �
 1 1 1 0. Cada grupo de dígitos é delimitado por um código de início (start) e um código de fim (end);
 estes códigos são diferentes entre si.
 
-In this project. the barcodes translate groups of decimal digits. Each digit is represented by a set of 7
+In this project, the barcodes translate groups of decimal digits. Each digit is represented by a set of 7
 black of white bars. There are various digit encoding ways, one of them is the ’L’ enconding. If a white bar 
 is represented by ’1’ and a black one by ’0’. then the code to represent, for example, the digit ’5’, in the 
-’L’ encoding, would be: 1 0 0 1 1 1 0. Each group of digits is delimited by a start code and a end code; 
+’L’ encoding, would be: 1 0 0 1 1 1 0. Each group of digits is delimited by a start code and an end code; 
 these codes are different from each other.
 
 + The start delimiter code is given by: 0 0 1 0 1 1 0 1 1 1 0 (eleven bars)
@@ -78,7 +78,7 @@ estes códigos são diferentes entre si._
 
 
 ## Variables to get from each object
-_**PT**_
+> _**PT**_
 _+ **NumMec** - Número mecanográfico do aluno._
 _+ **NumSeq** - Número da sequência da imagem (Cf. nome do ficheiro de imagem)._
 _+ **NumImg** - Número da imagem na sequência (Cf. nome do ficheiro de imagem)._
