@@ -1,7 +1,7 @@
 # SVPI-TP1
 Detection and processing of images with Barcodes and QR codes
 
-## Objetivo
+## Goal
 > **ING**
 
 Development of a Matlab program to analyse images containing linear barcodes, QR codes and some meaningless objects. 
@@ -19,7 +19,7 @@ avaliação serão novas._
 ![svpi2024_TP1_img_330_01](https://github.com/Nunoc99/SVPI-TP1/assets/114221939/3b3bc746-0495-42d6-804e-593d72aaa9e8)
 
  
-## Parâmetros a detetar em cada imagem
+## Parameters to detect in each image
 > **ING**
 
 In each image, the main parameters and caracteristics that the program has to detect are:
