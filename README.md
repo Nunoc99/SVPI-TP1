@@ -14,15 +14,15 @@ avaliação serão novas.
  
 ## Parâmetros a detetar em cada imagem
 Em cada imagem, os principais parâmetros e características a detetar pelo programa do aluno são:
-• Número total de objetos sem significado.
-• Número total de códigos de barras.
-• Número total de códigos matriciais.
-• Número de códigos de barras em cada uma das 4 orientações possíveis.
-• Número de códigos de barras válidos com reflexão axial.
-• Número de códigos de barras inválidos de acordo com o enunciado.
-• Número total acumulado de dígitos representados nos códigos de barras válidos.
-• Número de códigos de barras válidos em cada uma das 3 codificações possíveis (’L’, ’R’, ’G’).
-• String com os dígitos centrais dos códigos de barras válidos ordenados de forma crescente.
++ Número total de objetos sem significado.
++ Número total de códigos de barras.
++ Número total de códigos matriciais.
++ Número de códigos de barras em cada uma das 4 orientações possíveis.
++ Número de códigos de barras válidos com reflexão axial.
++ Número de códigos de barras inválidos de acordo com o enunciado.
++ Número total acumulado de dígitos representados nos códigos de barras válidos.
++ Número de códigos de barras válidos em cada uma das 3 codificações possíveis (’L’, ’R’, ’G’).
++ String com os dígitos centrais dos códigos de barras válidos ordenados de forma crescente.
 
 
 
