@@ -1,0 +1,127 @@
+%% TP1 - SVPI -------------------------------------------------------
+% Name:       Nuno Cunha
+% Num. Mec:   95167
+% Date:       05/03/2024
+% -------------------------------------------------------------------
+
+addpath '..\tp1_lib\' % functions folder path
+addpath '..\images'
+close all; clear all;
+clc
+
+% displaying the nr mec
+disp('95167') % nr mec display
+
+%% --------------- GETTING THE IMAGES FROM THE FOLDER ---------------------
+% reading the images names from inside the folder
+img_list = dir('..\images\svpi2024_TP1_img_*_*.png');
+
+% printing the images names
+for i = 1:size(img_list,1)
+
+    % get the image file name
+    img_name = img_list(i).name;
+    disp(img_name);
+
+    % % read the actual image
+    % A = imread(fullfile('..\images', img_name));
+    % 
+    % imshow(A)
+    % pause(1.0)
+
+end
+
+%% ----------------- TRAINING FOR ONE IMAGE -------------------------------
+% do the process to one and only one image
+A = im2double(imread('..\images\svpi2024_TP1_img_330_01.png'));
+% A = imbinarize(A);
+
+h = figure(1);
+set(h, 'Position', [2.6000 417 494.4000 362.4000])
+imshow(A)
+title('Original Image')
+
+% -------------------------------------------------------------------------
+% 1º apply edge detection to found the squares
+% -------------------------------------------------------------------------
+
+B = ~A;
+[BW1, thresh] = edge(B, 'roberts', 0.4990) % thresh dá-me o valor do threshold q ele escolheu automaticamente
+% sobel 0.3787; min=0.2687; max=0.3952
+% canny [0.0375    0.0938] low and high treshold
+% prewitt 0.3732;
+% roberts max=0.4990, o único q deteta todos os objetos
+
+
+h2 = figure(2);
+set(h2, 'Position', [481.8000 419.4000 494.4000 362.4000])
+imshow(BW1)
+title('Edge detection');
+
+% approxcanny is good for edge detection
+% sobel is better then canny
+% prewitt also good, better then canny
+% next step is to clean the inside of those boxes, possibilities:
+% - bwareaopen
+% - erode
+% - filtro de mediana
+
+% -------------------------------------------------------------------------
+% 2º remove the interior trash
+% -------------------------------------------------------------------------
+
+% int_remv = bwareaopen(BW1, 230); % 226 minimum
+int_remv = bwareaopen(BW1, 230); 
+s = regionprops(int_remv, 'Centroid');
+centroids = cat(1,s.Centroid);
+
+h3 = figure(3);
+set(h3, 'Position', [897.8000 417 494.4000 362.4000])
+imshow(int_remv)
+title('Clean squares')
+hold on
+plot(centroids(:,1), centroids(:,2), 'g+')
+
+[L, N] = bwlabel(int_remv); % it returns the image and the number of objects like the centroids
+
+% -------------------------------------------------------------------------
+% 2º get the original image but now, with bold squares like an object
+% -------------------------------------------------------------------------
+
+BW3 = A - int_remv;
+
+% h4 = figure(4);
+% set(h4, 'Position', [3.4000 45.8000 494.4000 362.4000])
+% imshow(BW3)
+title('A - int-remv')
+
+% PERGUNTAR AO PROF
+% será que o output disto são os próprios quadrados e eu consigo fazer algo
+% do tipo: 
+% BW3 = pixels > quadrados
+% com regionprops?
+
+%% VIP -> IR BUSCAR OS INDEXES DOS QUADRADOS OU PELOS CENTROIDS E DESENHAR
+%% OS MESMOS, TIPO C = B(col2:col100, row5:row70)
+
+% % voltar a colocar a imagem a branco
+% BW2 = ~BW1;
+% figure(4)
+% imshow(BW2)
+% title('Back to white')
+% 
+% 
+% % juntar img original com a alterada
+% figure(5)
+% % imshow(A | ~BW2)
+% imshow(~A + BW2)
+% title('A & BW2')
+
+%% THINGS TO IMPROVE
+% -> melhorar o threshold do edge detection, partir do automático
+% -> na imagem dos clean squares só pode aparecer 1 frame/objeto
+% -> get the total number of objects to be more accurate
+% -> é sempre melhor utilizar o BWBOUNDARIES em vez do FIND
+% -> check this https://www.youtube.com/watch?v=nVerYtaxVn8 (1:11:00) aula
+% do Prof Riem de SVPI
+
