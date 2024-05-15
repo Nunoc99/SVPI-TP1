@@ -2,7 +2,7 @@
 Detection and processing of images with Barcodes and QR codes
 
 ## Objetivo
-**ING**
+> **ING**
 
 Development of a Matlab program to analyse images containing linear barcodes, QR codes and some meaningless objects. 
 The program must be able to read supplied images and generate the requested results as described below.
