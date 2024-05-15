@@ -1,6 +1,7 @@
 # SVPI-TP1
 Detection and processing of images with Barcodes and QR codes
 
+## Objetivo
 Desenvolvimento de um programa em Matlab para fazer análise de imagens que contêm códigos de barras
 lineares, códigos matriciais (QR codes) e outros objetos sem significado. O programa deve ser capaz de
 interpretar imagens fornecidas e de gerar os resultados pedidos conforme descrito adiante. Serão dadas
