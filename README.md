@@ -15,6 +15,7 @@ avaliação serão novas._
 
 
 ![svpi2024_TP1_img_330_01](https://github.com/Nunoc99/SVPI-TP1/assets/114221939/3b3bc746-0495-42d6-804e-593d72aaa9e8)
+
 *Figure 1*
  
 ## Parameters to detect in each image
@@ -44,6 +45,7 @@ In each image, the main parameters and caracteristics that the program has to de
 
 
 ![Capturar](https://github.com/Nunoc99/SVPI-TP1/assets/114221939/306f631a-995d-4163-9e90-d72609854b31)
+
 *Figure 2*
 
 ## The Barcodes
@@ -68,6 +70,7 @@ estes códigos são diferentes entre si._
 + _O código delimitador de fim é dado por: 0 1 1 1 0 0 0 1 0 1 0 0 (doze barras)_
 
 ![image](https://github.com/Nunoc99/SVPI-TP1/assets/114221939/75055310-b6d7-4ad0-b4a8-d14aefc11b64)
+
 *Figure 3*
 
 ## Variables to get from each object
