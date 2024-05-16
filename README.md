@@ -59,8 +59,8 @@ these codes are different from each other.
 + The end delimiter code is given by: 0 1 1 1 0 0 0 0 1 0 1 0 0 (twelve bars)
 
 > _**PT**_
-
-_Neste trabalho, os códigos de barras traduzem grupos de dígitos decimais. Cada dígito é representado
+>
+> _Neste trabalho, os códigos de barras traduzem grupos de dígitos decimais. Cada dígito é representado
 por um conjunto de 7 barras pretas ou brancas. Existem várias formas de codificação dos dígitos, sendo
 uma delas a codificação ’L’. Se uma barra branca for representada por um ’1’ e uma barra preta por um
 ’0’, então o código para representar por exemplo o dígito ’5’, na codificação ’L’, será o seguinte: 1 0 0
@@ -93,23 +93,23 @@ estes códigos são diferentes entre si._
 + **StringCB** - String with the central digits of the valid barcodes sorted in ascending order.
 
 > _**PT**_
-+ _**NumMec** - Número mecanográfico do aluno._
-+ _**NumSeq** - Número da sequência da imagem (Cf. nome do ficheiro de imagem)._
-+ _**NumImg** - Número da imagem na sequência (Cf. nome do ficheiro de imagem)._
-+ _**TotNM** - Número de objetos sem significado._
-+ _**TotCB** - Número total de objetos com códigos de barras._
-+ _**TotQR** - Número total de objetos com QR codes._
-+ _**R0** - Número de códigos de barra na orientação de 0°._
-+ _**R90** - Número de códigos de barra na orientação de 90°._
-+ _**R180** - Número de códigos de barra na orientação de 180°._
-+ _**R270** - Número de códigos de barra na orientação de 270°._
-+ _**ReflCB** - Número de códigos de barras válidos com reflexão axial._
-+ _**BadCB** - Número de códigos de barras inválidos._
-+ _**TotDigCB** - Número total acumulado de dígitos representados nos códigos de barras válidos._
-+ _**CBL** - Número de códigos de barras válidos na codificação ’L’._
-+ _**CBR** - Número de códigos de barras válidos na codificação ’R’._
-+ _**CBG** - Número de códigos de barras válidos na codificação ’G’._
-+ _**StringCB** - String com os dígitos centrais dos códigos de barras válidos ordenados crescentes._
+> + _**NumMec** - Número mecanográfico do aluno._
+> + _**NumSeq** - Número da sequência da imagem (Cf. nome do ficheiro de imagem)._
+> + _**NumImg** - Número da imagem na sequência (Cf. nome do ficheiro de imagem)._
+> + _**TotNM** - Número de objetos sem significado._
+> + _**TotCB** - Número total de objetos com códigos de barras._
+> + _**TotQR** - Número total de objetos com QR codes._
+> + _**R0** - Número de códigos de barra na orientação de 0°._
+> + _**R90** - Número de códigos de barra na orientação de 90°._
+> + _**R180** - Número de códigos de barra na orientação de 180°._
+> + _**R270** - Número de códigos de barra na orientação de 270°._
+> + _**ReflCB** - Número de códigos de barras válidos com reflexão axial._
+> + _**BadCB** - Número de códigos de barras inválidos._
+> + _**TotDigCB** - Número total acumulado de dígitos representados nos códigos de barras válidos._
+> + _**CBL** - Número de códigos de barras válidos na codificação ’L’._
+> + _**CBR** - Número de códigos de barras válidos na codificação ’R’._
+> + _**CBG** - Número de códigos de barras válidos na codificação ’G’._
+> + _**StringCB** - String com os dígitos centrais dos códigos de barras válidos ordenados crescentes._
 
 
 ## RESULTS
