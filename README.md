@@ -66,8 +66,9 @@ uma delas a codificação ’L’. Se uma barra branca for representada por um �
 ’0’, então o código para representar por exemplo o dígito ’5’, na codificação ’L’, será o seguinte: 1 0 0
 1 1 1 0. Cada grupo de dígitos é delimitado por um código de início (start) e um código de fim (end);
 estes códigos são diferentes entre si._
-+ _O código delimitador de início é dado por: 0 0 1 0 1 1 0 1 1 1 0 (onze barras)_
-+ _O código delimitador de fim é dado por: 0 1 1 1 0 0 0 1 0 1 0 0 (doze barras)_
+> 
+> + _O código delimitador de início é dado por: 0 0 1 0 1 1 0 1 1 1 0 (onze barras)_
+> + _O código delimitador de fim é dado por: 0 1 1 1 0 0 0 1 0 1 0 0 (doze barras)_
 
 ![image](https://github.com/Nunoc99/SVPI-TP1/assets/114221939/75055310-b6d7-4ad0-b4a8-d14aefc11b64)
 
